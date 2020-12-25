@@ -1,0 +1,17 @@
+#-------------使用如下集成方式，可激活配置
+#spring:
+#  profiles:
+#    active: comm,dev,tv
+
+#-------------或者使用如下集成方式，可激活配置
+#spring:
+#     profiles:
+#       include: comm,dev,tv
+
+#-------------或者使用如下分组的集成方式，可激活配置
+spring:
+  profiles:
+    active: prod
+    group:
+      dev: comm,dev,tv
+      prod: comm,prod,tv
