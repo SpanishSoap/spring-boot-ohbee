@@ -8,17 +8,26 @@
         <version>2.4.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>cn.ohbee</groupId>
     <artifactId>spring-boot-ohbee</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-ohbee</name>
     <description>Demo project for Spring Boot</description>
+
     <packaging>pom</packaging>
+
     <properties>
         <java.version>1.8</java.version>
         <hutool.version>5.5.4</hutool.version>
         <guava.version>30.1-jre</guava.version>
     </properties>
+
+    <modules>
+        <module>demo-properties</module>
+        <module>demo-properties-translate</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <!-- hutool工具类 -->
