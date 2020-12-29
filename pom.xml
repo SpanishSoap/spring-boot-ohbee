@@ -26,6 +26,7 @@
     <modules>
         <module>demo-properties</module>
         <module>demo-properties-translate</module>
+        <module>demo-war</module>
     </modules>
 
     <dependencyManagement>

@@ -1,0 +1,1 @@
+https://docs.spring.io/spring-boot/docs/2.4.1/reference/htmlsingle/#howto-create-a-deployable-war-file
