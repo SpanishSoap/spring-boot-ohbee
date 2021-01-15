@@ -1,0 +1,6 @@
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 2 # 允许的最大线程数 默认为 1
+      thread-name-prefix: scheduling- #新创建线程名称的前缀 默认 scheduling-
