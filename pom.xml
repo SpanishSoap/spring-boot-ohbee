@@ -27,6 +27,8 @@
         <module>demo-properties</module>
         <module>demo-war</module>
         <module>demo-async</module>
+        <module>demo-scheduling</module>
+        <module>demo-aop</module>
     </modules>
 
     <dependencyManagement>
