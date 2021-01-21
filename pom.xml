@@ -29,6 +29,7 @@
         <module>demo-async</module>
         <module>demo-scheduling</module>
         <module>demo-aop</module>
+        <module>demo-interceptor</module>
     </modules>
 
     <dependencyManagement>

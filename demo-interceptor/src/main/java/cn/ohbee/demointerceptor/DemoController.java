@@ -1,4 +1,4 @@
-package cn.ohbee.demoaop;
+package cn.ohbee.demointerceptor;
 
 import cn.hutool.core.collection.CollUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -16,11 +16,12 @@ import java.util.List;
 @Slf4j
 @RestController
 @Validated
-public class AopTestSimpleController {
+public class DemoController {
 
 
     @GetMapping("simpleWebApi")
     public List<String> aopTestSimpleWebApi(@NotNull Boolean isBoys){
+        log.info("方法执行中:aopTestSimpleWebApi");
         ArrayList<String> friends ;
         if(isBoys){
             friends =  CollUtil.newArrayList("Joey", "Chandler", "Rose");
@@ -29,5 +30,4 @@ public class AopTestSimpleController {
         }
         return friends;
     }
-
 }
