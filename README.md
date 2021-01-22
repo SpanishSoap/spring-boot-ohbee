@@ -6,3 +6,4 @@
 ###### ⭕🌏  <a  target="_blank" href="https://www.ohbee.cn/ArticleDetails/152">Spring Boot 执行定时任务</a>  😊 demo-scheduling
 ###### ⭕🌏  <a  target="_blank" href="https://www.ohbee.cn/ArticleDetails/153">Spring Boot中的AOP</a>  😊 demo-aop
 ###### ⭕🌏  <a  target="_blank" href="https://www.ohbee.cn/ArticleDetails/154">Spring Boot 中使用拦截器</a>  😊 demo-interceptor
+###### ⭕🌏  <a  target="_blank" href="https://www.ohbee.cn/ArticleDetails/155">Spring Boot 中异常处理</a>  😊 demo-exception

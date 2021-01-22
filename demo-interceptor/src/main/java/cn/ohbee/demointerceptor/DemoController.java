@@ -20,8 +20,8 @@ public class DemoController {
 
 
     @GetMapping("simpleWebApi")
-    public List<String> aopTestSimpleWebApi(@NotNull Boolean isBoys){
-        log.info("方法执行中:aopTestSimpleWebApi");
+    public List<String> simpleWebApi(@NotNull Boolean isBoys){
+        log.info("方法执行中:simpleWebApi");
         ArrayList<String> friends ;
         if(isBoys){
             friends =  CollUtil.newArrayList("Joey", "Chandler", "Rose");

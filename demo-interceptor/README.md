@@ -51,8 +51,8 @@
     @Validated
     public class DemoController {
         @GetMapping("simpleWebApi")
-        public List<String> aopTestSimpleWebApi(@NotNull Boolean isBoys){
-            log.info("方法执行中:aopTestSimpleWebApi");
+        public List<String> simpleWebApi(@NotNull Boolean isBoys){
+            log.info("方法执行中:simpleWebApi");
             ArrayList<String> friends ;
             if(isBoys){
                 friends =  CollUtil.newArrayList("Joey", "Chandler", "Rose");
@@ -131,7 +131,7 @@
 -   🌏 浏览器中访问 `http://localhost:8080/simpleWebApi?isBoys=true`，查看打印日志
     ```sh
     方法执行前执行:preHandle
-    方法执行中:aopTestSimpleWebApi
+    方法执行中:simpleWebApi
     方法执行后执行:postHandle
     方法执行完成，准备返回数据或者视图的时候执行:afterCompletion
     ```

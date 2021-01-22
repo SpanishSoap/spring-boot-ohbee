@@ -9,18 +9,24 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author zf
+ */
 @SpringBootApplication
 @Slf4j
 public class DemoPropertiesApplication implements ApplicationRunner {
+
+    public DemoPropertiesApplication(ApplicationProperty applicationProperty, TeleplayInfoProperty teleplayInfoProperty) {
+        this.applicationProperty = applicationProperty;
+        this.teleplayInfoProperty = teleplayInfoProperty;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(DemoPropertiesApplication.class, args);
     }
 
-    @Autowired
-    private ApplicationProperty applicationProperty;
-    @Autowired
-    private TeleplayInfoProperty teleplayInfoProperty;
+    private final ApplicationProperty applicationProperty;
+    private final TeleplayInfoProperty teleplayInfoProperty;
     @Override
     public void run(ApplicationArguments args) throws Exception {
         Dict set = Dict.create().set("applicationProperty", applicationProperty).set("blogInfoProperty", teleplayInfoProperty);

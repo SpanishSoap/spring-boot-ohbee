@@ -30,6 +30,7 @@
         <module>demo-scheduling</module>
         <module>demo-aop</module>
         <module>demo-interceptor</module>
+        <module>demo-exception</module>
     </modules>
 
     <dependencyManagement>
