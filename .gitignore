@@ -28,3 +28,4 @@ target
 *.iml
 mvnw*
 .mvn
+HELP.md
